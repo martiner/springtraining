@@ -1,0 +1,5 @@
+1. create conf.properties file in resources dir
+2. <context:property-placeholder location="classpath:/conf.properties"/>
+3. add String property to TestSaluter
+4.a set this property in XML: ${...}
+4.b set this property via annotation @Value("${...}")
