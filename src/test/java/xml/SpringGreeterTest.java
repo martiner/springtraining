@@ -11,7 +11,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import xml.SpringGreeter;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration({"classpath:/xml/helloworld.xml", "classpath:/xml/helloworld-test.xml"})
+@ContextConfiguration({"classpath:/helloworld.xml", "classpath:/helloworld-test.xml"})
 public class SpringGreeterTest {
 	
 	// dependency injection by type
