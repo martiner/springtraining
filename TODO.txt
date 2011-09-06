@@ -1,0 +1,5 @@
+1. convert the Prio enum to an entity class
+2. add a controller and DAO for Prio to let user list/create/update Prio
+3. change the Task class to reference Prio class
+4. change TaskController to include all Prio instances in the model
+5. change form.jsp to allow choose one of Prios
