@@ -8,5 +8,6 @@
 	<bean id="greeter" class="xml.SpringGreeter">
 		<property name="saluter" ref="saluter" />
 	</bean>
+	
 
 </beans>
