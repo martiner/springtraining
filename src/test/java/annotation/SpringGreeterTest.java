@@ -19,7 +19,7 @@ public class SpringGreeterTest {
 	@Test
 	public void greet() {
 		String greet = greeter.greet("World");
-		Assert.assertEquals("Hello World", greet);
+		Assert.assertEquals("hola World", greet);
 	}
 
 }
