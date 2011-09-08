@@ -4,6 +4,8 @@
 	<application>APPID</application>
 	<version>1</version>
 	
+	<sessions-enabled>true</sessions-enabled>
+	
 	<system-properties>
 		<property name="appengine.orm.disable.duplicate.emf.exception" value="true"/>
 		<property name="java.util.logging.config.file" value="WEB-INF/logging.properties"/>
